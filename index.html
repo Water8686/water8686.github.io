@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ben Mickool - Business & Technology Solutions</title>
+    <meta name="description" content="Hi! I'm Ben, a Virginia Tech grad who loves building tools that solve real business problems. Check out my projects and let's connect!">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Plus+Jakarta+Sans:wght@400;500;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Navigation Removed -->
+
+    <!-- Hero Section -->
+    <section id="hero" class="d-flex align-items-center min-vh-100 position-relative overflow-hidden">
+        <div class="background-glow"></div>
+        <div class="container position-relative z-1 text-center text-lg-start">
+            <div class="row align-items-center">
+                <div class="col-lg-7">
+                    <h1 class="display-3 fw-bold mb-4 reveal-on-scroll">Hey there, I'm <span class="gradient-text">Ben Mickool</span></h1>
+                    <p class="lead mb-5 reveal-on-scroll delay-100">I'm a Virginia Tech grad who loves bridging the gap between business goals and technology. I love to build systems that optimize workflows and make work and decision-making easier. Take a look around at what I can do!</p>
+                    <div
+                        class="d-flex gap-3 justify-content-center justify-content-lg-start reveal-on-scroll delay-200">
+                        <a href="#projects" class="btn btn-primary btn-lg rounded-pill px-5 shadow-lg">See My Work</a>
+                        <a href="#contact" class="btn btn-outline-light btn-lg rounded-pill px-5">Get In Touch</a>
+                    </div>
+                </div>
+                <div class="col-lg-5 mt-5 mt-lg-0 text-center reveal-on-scroll delay-300">
+                    <!-- Placeholder for a 3D element or illustration could go here -->
+                    <div class="hero-visual">
+                        <i class="fa-solid fa-lightbulb fa-10x gradient-icon"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-6">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold display-5 mb-3">What I've Been Working On</h2>
+                <p class="text-muted mb-4">Here are a few projects I'm excited to share</p>
+                <div class="divider mx-auto"></div>
+            </div>
+
+            <div class="row g-4">
+                <!-- Project 1: Time Tracker -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card project-card h-100 border-0 glass-card">
+                        <div class="card-body p-4">
+                            <div class="icon-box mb-4 bg-primary-subtle text-primary rounded-circle d-inline-flex align-items-center justify-content-center"
+                                style="width: 60px; height: 60px;">
+                                <i class="fa-solid fa-clock fa-xl"></i>
+                            </div>
+                            <h3 class="card-title h4 fw-bold mb-3">Time Tracker App</h3>
+                            <p class="card-text text-muted mb-4">Built a time-tracking tool for freelancers and contractors. It helps track work hours, keeps everything synced across devices, and even generates invoices. Perfect for anyone juggling multiple projects!</p>
+                            <div class="d-flex flex-wrap gap-2 mb-4">
+                                <span class="badge bg-dark-subtle text-light border border-secondary">React</span>
+                                <span class="badge bg-dark-subtle text-light border border-secondary">Node.js</span>
+                                <span class="badge bg-dark-subtle text-light border border-secondary">Full Stack</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2: Colonist.io Extension -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card project-card h-100 border-0 glass-card">
+                        <div class="card-body p-4">
+                            <div class="icon-box mb-4 bg-success-subtle text-success rounded-circle d-inline-flex align-items-center justify-content-center"
+                                style="width: 60px; height: 60px;">
+                                <i class="fa-solid fa-puzzle-piece fa-xl"></i>
+                            </div>
+                            <h3 class="card-title h4 fw-bold mb-3">Colonist.io Card Counter</h3>
+                            <p class="card-text text-muted mb-4">Created a browser extension that helps players keep track of game events in real-time. It reads the game chat and gives you helpful insights—works great on Safari and Brave browsers.</p>
+                            <div class="d-flex flex-wrap gap-2 mb-4">
+                                <span class="badge bg-dark-subtle text-light border border-secondary">JavaScript</span>
+                                <span class="badge bg-dark-subtle text-light border border-secondary">Browser
+                                    Extension</span>
+                                <span class="badge bg-dark-subtle text-light border border-secondary">DOM
+                                    Manipulation</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3: Excel Shipping Optimization -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card project-card h-100 border-0 glass-card">
+                        <div class="card-body p-4">
+                            <div class="icon-box mb-4 bg-warning-subtle text-warning rounded-circle d-inline-flex align-items-center justify-content-center"
+                                style="width: 60px; height: 60px;">
+                                <i class="fa-solid fa-truck-fast fa-xl"></i>
+                            </div>
+                            <h3 class="card-title h4 fw-bold mb-3">Shipping Optimization Tool</h3>
+                            <p class="card-text text-muted mb-4">Built an Excel tool that helps businesses figure out the most cost-effective way to ship products. Just enter your data, and it calculates the best shipping strategy automatically. Saves time and money!</p>
+                            <div class="d-flex flex-wrap gap-2 mb-4">
+                                <span class="badge bg-dark-subtle text-light border border-secondary">Excel VBA</span>
+                                <span class="badge bg-dark-subtle text-light border border-secondary">Solver</span>
+                                <span
+                                    class="badge bg-dark-subtle text-light border border-secondary">Optimization</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4: AI-Powered Business Web App -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card project-card h-100 border-0 glass-card">
+                        <div class="card-body p-4">
+                            <div class="icon-box mb-4 bg-info-subtle text-info rounded-circle d-inline-flex align-items-center justify-content-center"
+                                style="width: 60px; height: 60px;">
+                                <i class="fa-solid fa-store fa-xl"></i>
+                            </div>
+                            <h3 class="card-title h4 fw-bold mb-3">AI-Powered Business Web App</h3>
+                            <p class="card-text text-muted mb-4">Developed a full-stack web application for local businesses with visual analytics and AI-powered chat. Features user management, inventory tracking, order processing, and shipping management—all with interactive charts and AI-driven insights!</p>
+                            <div class="d-flex flex-wrap gap-2 mb-4">
+                                <span class="badge bg-dark-subtle text-light border border-secondary">Python Flask</span>
+                                <span class="badge bg-dark-subtle text-light border border-secondary">MySQL</span>
+                                <span class="badge bg-dark-subtle text-light border border-secondary">Bootstrap</span>
+                                <span class="badge bg-dark-subtle text-light border border-secondary">FusionCharts</span>
+                                <span class="badge bg-dark-subtle text-light border border-secondary">Gen-AI</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="py-6 bg-darker">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold display-5 mb-3">Professional Experience</h2>
+                <p class="text-muted mb-4">Real-world solutions I've delivered</p>
+                <div class="divider mx-auto"></div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="card glass-card border-0">
+                        <div class="card-body p-4">
+                            <div class="d-flex flex-column flex-md-row align-items-start gap-4">
+                                <div class="icon-box bg-primary-subtle text-primary rounded-circle d-inline-flex align-items-center justify-content-center flex-shrink-0"
+                                    style="width: 70px; height: 70px;">
+                                    <i class="fa-solid fa-rocket fa-xl"></i>
+                                </div>
+                                <div class="flex-grow-1">
+                                    <div class="d-flex justify-content-between align-items-start flex-wrap mb-3">
+                                        <div>
+                                            <h3 class="h3 fw-bold mb-1">Operations Analyst → Salesforce Architect</h3>
+                                            <h4 class="h5 text-primary mb-2">Tischler Und Sohn</h4>
+                                        </div>
+                                        <div class="d-flex flex-column gap-2 mt-2 mt-md-0">
+                                            <span class="badge bg-dark-subtle text-light border border-secondary">Summer 2022 - Current</span>
+                                            <span class="badge bg-success-subtle text-success border border-success">Promoted from Intern</span>
+                                        </div>
+                                    </div>
+                                    
+                                    <p class="lead text-light mb-4" style="font-size: 1.1rem;">
+                                        What started as a summer internship identifying bottlenecks in the sales pipeline turned into a full-scale digital transformation. I didn't just spot the problem—I built the solution from the ground up, and the impact was so significant that the President brought me back to lead the company's entire tech evolution.
+                                    </p>
+
+                                    <div class="mb-4">
+                                        <h5 class="h6 fw-bold text-light mb-3"><i class="fa-solid fa-code me-2 text-primary"></i>Building the Foundation</h5>
+                                        <p class="text-muted mb-3">
+                                            As the sole Salesforce Developer and Admin, I'm architecting custom solutions that transform how the company operates. I've built advanced <strong class="text-light">Lightning Web Components (LWC)</strong> that solve real UI/UX challenges, created custom objects and process flows that automate complex workflows, and designed interactive dashboards that put critical data right where decision-makers need it.
+                                        </p>
+                                    </div>
+
+                                    <div class="mb-4">
+                                        <h5 class="h6 fw-bold text-light mb-3"><i class="fa-solid fa-cloud me-2 text-primary"></i>Leading the Cloud Revolution</h5>
+                                        <p class="text-muted mb-3">
+                                            I spearheaded the company's migration from physical servers to Microsoft's cloud infrastructure—a move that modernized how teams collaborate. Using <strong class="text-light">Power Automate</strong>, I automated workflows that used to take hours, freeing up the team to focus on what actually matters. The result? Better communication, seamless collaboration, and real accountability across the organization.
+                                        </p>
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <h5 class="h6 fw-bold text-light mb-3"><i class="fa-solid fa-chart-line me-2 text-primary"></i>Driving Strategic Impact</h5>
+                                        <p class="text-muted mb-0">
+                                            Beyond just building tools, I'm mapping out how the entire company uses technology, identifying inefficiencies, and evaluating new solutions. I work directly with external partners to find the best fit, then drive adoption across teams. The goal? Make sure every tool we use actually makes work easier, not harder. And it's working—employee engagement with our new systems has skyrocketed.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="py-6">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold display-5 mb-3">Education</h2>
+                <div class="divider mx-auto"></div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="card glass-card border-0">
+                        <div class="card-body p-4">
+                            <div class="d-flex flex-column flex-md-row align-items-center align-items-md-start gap-4 text-center text-md-start">
+                                <div class="icon-box bg-danger-subtle text-danger rounded-circle d-inline-flex align-items-center justify-content-center flex-shrink-0"
+                                    style="width: 80px; height: 80px;">
+                                    <i class="fa-solid fa-graduation-cap fa-2x"></i>
+                                </div>
+                                <div>
+                                    <h3 class="h3 fw-bold mb-2">Virginia Tech</h3>
+                                    <h4 class="h5 text-light mb-3">Pamplin College of Business</h4>
+                                    <div class="d-flex flex-wrap justify-content-center justify-content-md-start gap-2 mb-4">
+                                        <span class="badge bg-dark-subtle text-light border border-secondary">Business Information Technology</span>
+                                        <span class="badge bg-dark-subtle text-light border border-secondary">Decision Support Systems (DSS)</span>
+                                        <span class="badge bg-warning-subtle text-warning border border-warning">Dean's List Recipient</span>
+                                    </div>
+                                    <p class="text-muted mb-0">
+                                        Focused on the design, implementation, and use of computerized systems to support managerial decision-making. 
+                                        My concentration in <strong>Decision Support Systems (DSS)</strong> provided deep expertise in bridging the gap between 
+                                        technical capabilities and business strategies. Coursework included database management, artificial intelligence, 
+                                        visual interface design, and software development for business applications.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-6 bg-darker">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold display-5 mb-3">Tools & Technologies I Use</h2>
+                <p class="text-muted mb-4">Here's what I work with to bring ideas to life</p>
+                <div class="divider mx-auto"></div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="d-flex flex-wrap justify-content-center gap-3">
+                        <div class="skill-tag reveal-on-scroll"><i class="fa-brands fa-python me-2"></i>Python</div>
+                        <div class="skill-tag reveal-on-scroll delay-100"><i class="fa-brands fa-js me-2"></i>JavaScript
+                        </div>
+                        <div class="skill-tag reveal-on-scroll delay-200"><i class="fa-brands fa-html5 me-2"></i>HTML5
+                        </div>
+                        <div class="skill-tag reveal-on-scroll delay-300"><i class="fa-brands fa-css3-alt me-2"></i>CSS3
+                        </div>
+                        <div class="skill-tag reveal-on-scroll delay-400"><i
+                                class="fa-brands fa-bootstrap me-2"></i>Bootstrap</div>
+                        <div class="skill-tag reveal-on-scroll delay-500"><i class="fa-solid fa-flask me-2"></i>Flask
+                        </div>
+                        <div class="skill-tag reveal-on-scroll delay-600"><i class="fa-solid fa-server me-2"></i>AJAX
+                        </div>
+                        <div class="skill-tag reveal-on-scroll delay-700"><i class="fa-solid fa-table me-2"></i>Excel
+                            VBA</div>
+                        <div class="skill-tag reveal-on-scroll delay-800"><i class="fa-solid fa-robot me-2"></i>AI Optimization</div>
+                        <div class="skill-tag reveal-on-scroll delay-900"><i class="fa-solid fa-database me-2"></i>Data Analysis</div>
+                        <div class="skill-tag reveal-on-scroll delay-1000"><i class="fa-solid fa-chart-line me-2"></i>Business Intelligence</div>
+                        <div class="skill-tag reveal-on-scroll delay-1100"><i class="fa-brands fa-salesforce me-2"></i>Salesforce Admin</div>
+                        <div class="skill-tag reveal-on-scroll delay-1200"><i class="fa-brands fa-salesforce me-2"></i>Salesforce Developer</div>
+                        <div class="skill-tag reveal-on-scroll delay-1300"><i class="fa-solid fa-cloud me-2"></i>Salesforce LWC</div>
+                        <div class="skill-tag reveal-on-scroll delay-1400"><i class="fa-solid fa-calendar-check me-2"></i>Monday.com</div>
+                        <div class="skill-tag reveal-on-scroll delay-1500"><i class="fa-solid fa-database me-2"></i>MySQL</div>
+                        <div class="skill-tag reveal-on-scroll delay-1600"><i class="fa-solid fa-server me-2"></i>Database Management</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Learning Section -->
+    <section id="learning" class="py-6">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold display-5 mb-3">What I'm Learning Now</h2>
+                <p class="text-muted mb-4">Always curious, always growing</p>
+                <div class="divider mx-auto"></div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="d-flex flex-wrap justify-content-center gap-3">
+                        <div class="learning-tag reveal-on-scroll">
+                            <i class="fa-solid fa-brain me-2"></i>Machine Learning
+                        </div>
+                        <div class="learning-tag reveal-on-scroll delay-100">
+                            <i class="fa-solid fa-network-wired me-2"></i>Neural Networks
+                        </div>
+                        <div class="learning-tag reveal-on-scroll delay-200">
+                            <i class="fa-brands fa-linux me-2"></i>Linux
+                        </div>
+                    </div>
+                    <p class="text-center text-muted mt-4 reveal-on-scroll delay-300" style="max-width: 600px; margin: 0 auto;">
+                        I'm diving deep into the world of AI and machine learning, exploring how neural networks work, and getting comfortable with Linux. Excited to see where these skills take me!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interests Section -->
+    <section id="interests" class="py-6 bg-darker">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold display-5 mb-3">Personal Interests</h2>
+                <p class="text-muted mb-4">What keeps me moving when I'm not coding</p>
+                <div class="divider mx-auto"></div>
+            </div>
+            
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="d-flex flex-wrap justify-content-center gap-3">
+                        <div class="skill-tag reveal-on-scroll"><i class="fa-solid fa-microchip me-2"></i>Technology</div>
+                        <div class="skill-tag reveal-on-scroll delay-100"><i class="fa-solid fa-golf-ball-tee me-2"></i>Golf</div>
+                        <div class="skill-tag reveal-on-scroll delay-200"><i class="fa-solid fa-person-running me-2"></i>Distance Running</div>
+                        <div class="skill-tag reveal-on-scroll delay-300"><i class="fa-solid fa-bicycle me-2"></i>Cycling</div>
+                        <div class="skill-tag reveal-on-scroll delay-400"><i class="fa-solid fa-person-hiking me-2"></i>Hiking</div>
+                        <div class="skill-tag reveal-on-scroll delay-500"><i class="fa-solid fa-car me-2"></i>Cars</div>
+                        <div class="skill-tag reveal-on-scroll delay-600"><i class="fa-solid fa-chart-column me-2"></i>Economics</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-6">
+        <div class="container text-center">
+            <h2 class="fw-bold display-5 mb-4">Let's Connect!</h2>
+            <p class="lead text-muted mb-5 mx-auto" style="max-width: 600px;">I'm always open to new opportunities and interesting conversations. Have a project in mind? Want to chat about business and tech? Feel free to reach out—I'd love to hear from you!
+            </p>
+            <a href="https://www.linkedin.com/in/ben-mickool/" target="_blank" class="btn btn-primary btn-lg rounded-pill px-5 shadow-lg"><i class="fa-brands fa-linkedin me-2"></i>Connect on LinkedIn</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-4 text-center text-muted border-top border-secondary border-opacity-25">
+        <div class="container">
+            <p class="mb-0">&copy; <span id="year"></span> Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+
+</html>
